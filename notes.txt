@@ -1,0 +1,10 @@
+22 Jan 2022:
+  1. JS running order - It runs from top to bottom
+  2. It is Interpreted code
+  3. JS is dynamic & can work both server side and client side
+  4. Script loading strategies - Use DOMContentLoad event listener so it executed once after all
+                                 HTML code is loaded.
+  5. Defer - will load JS code with HTML and executes JS code after HTML is executed.
+  6. Async - will load JS code with HTML and executes JS code as soon it is loaded. It stops html 
+             from being rendered.
+  7. Comment - // single line comment, /**/ multi line comment
